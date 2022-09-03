@@ -10,9 +10,5 @@ public class Main {
         Line line = new Line(point1, point2);
         
         line.draw();
-
-        System.out.println(point1.len);
-        point1.len = 3;
-        System.out.println(point1.len);
     }
 }
